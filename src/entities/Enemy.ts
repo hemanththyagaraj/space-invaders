@@ -22,7 +22,7 @@ export class Enemy {
 
   async loadEnemyImage() {
     try {
-      const enemyImage = await loadImage("src/assets/ufo.png");
+      const enemyImage = await loadImage("ufos.png");
       this.image = enemyImage;
     } catch (error) {
       this.image = null;
@@ -31,7 +31,7 @@ export class Enemy {
 
   async loadDestroyImage() {
     try {
-      const destroyImage = await loadImage("src/assets/explode.png");
+      const destroyImage = await loadImage("explode.png");
       this.destroyImage = destroyImage;
     } catch (error) {
       this.destroyImage = null;

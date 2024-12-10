@@ -18,7 +18,7 @@ export class Projectile {
 
   async loadProjectileImage() {
     try {
-      const projectileImage = await loadImage("src/assets/bullet.png");
+      const projectileImage = await loadImage("bullet.png");
       this.image = projectileImage;
     } catch (error) {
       this.image = null;

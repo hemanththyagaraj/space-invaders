@@ -26,7 +26,7 @@ export class Player {
 
   async loadPlayerImage() {
     try {
-      const playerImage = await loadImage("src/assets/spaceship.png");
+      const playerImage = await loadImage("spaceship.png");
       this.image = playerImage;
     } catch (error: any) {
       this.image = null;
