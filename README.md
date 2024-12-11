@@ -4,6 +4,13 @@ Welcome to the **Space Invaders Game**! This retro-inspired 2D game is built usi
 
 ---
 
+
+## **Demo**
+Play the live demo here: [Space Invaders Game](https://space-invaders-dusky-two.vercel.app/)
+
+
+---
+
 ## **Table of Contents**
 
 1. [Features](#features)
